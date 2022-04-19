@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+:root {
+  --soft-violet: rgb(174, 102, 232);
+  --soft-blue: hsl(240, 73%, 65%);
+  --very-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --soft-red: hsl(14, 88%, 65%);
+  --Very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --Dark-grayish-blue: hsl(240, 6%, 50%);
+  --Light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--soft-violet)), to(var(--soft-blue)));
+  background: linear-gradient(var(--soft-violet), var(--soft-blue));
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.card {
+  width: 320px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+  padding-bottom: 45px;
+  text-align: center;
+  -webkit-box-shadow: 0px 30px 70px -30px black;
+          box-shadow: 0px 30px 70px -30px black;
+}
+
+.card_logo {
+  height: 120px;
+  max-width: 600px;
+  -webkit-transform: translateY(-115px);
+          transform: translateY(-115px);
+  margin-bottom: 20px;
+}
+
+.card_logo-img {
+  width: 80%;
+}
+
+.card_logo-bg {
+  width: 80%;
+  -webkit-transform: translateY(-80px);
+          transform: translateY(-80px);
+}
+
+.card_title {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.card_questions {
+  width: 100%;
+  padding: 0 25px;
+}
+
+.card .questions_question-wraper {
+  border-bottom: 1px var(--Light-grayish-blue) solid;
+  width: 100%;
+}
+
+.card .questions_question-wraper .question {
+  font-size: 13px;
+  width: 100%;
+  text-align: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 0;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.card .questions_question-wraper .question:hover {
+  color: var(--soft-red);
+}
+
+.card .questions_question-wraper .answer {
+  width: 90%;
+  padding-bottom: 13px;
+  text-align: start;
+  display: none;
+  color: var(--Dark-grayish-blue);
+}
+
+.hide {
+  display: none;
+}
+
+@media only screen and (min-width: 800px) {
+  .card {
+    height: 500px;
+    position: relative;
+    width: 900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .card_logo {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    margin: 0;
+  }
+  .card_logo-desktop {
+    position: relative;
+    overflow: hidden;
+  }
+  .card_logo-desktop-img {
+    position: absolute;
+    -webkit-transform: translate(-90px, 80px);
+            transform: translate(-90px, 80px);
+  }
+  .card_logo-desktop-bg {
+    width: 220%;
+    -webkit-transform: translate(-540px, -270px);
+            transform: translate(-540px, -270px);
+  }
+  .card_logo-desktop-box {
+    -webkit-transform: translate(-95px, -690px);
+            transform: translate(-95px, -690px);
+  }
+  .card_questions {
+    padding-right: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.attribution {
+  padding-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */

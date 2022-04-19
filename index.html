@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <section class="card_logo">
+        <img
+          src="images/illustration-woman-online-mobile.svg"
+          alt=""
+          class="card_logo-img"
+        />
+        <img class="card_logo-bg" src="images/bg-pattern-mobile.svg" alt="" />
+
+        <div class="card_logo-desktop">
+          <img
+            class="card_logo-desktop-img"
+            src="images/illustration-woman-online-desktop.svg"
+            alt=""
+          />
+          <img
+            class="card_logo-desktop-bg"
+            src="images/bg-pattern-desktop.svg"
+            alt=""
+          />
+        </div>
+        <img
+          class="card_logo-desktop-box"
+          src="images/illustration-box-desktop.svg"
+          alt=""
+        />
+      </section>
+
+      <section class="card_questions questions">
+        <h1 class="card_title">FAQ</h1>
+        <div class="questions_question-wraper">
+          <div class="question">
+            How many team members can I invite?
+            <button class="question_button-up">
+              <img src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+          <div class="answer">
+            You can invite up to 2 additional users on the Free plan. There is
+            no limit on team members for the Premium plan.
+          </div>
+        </div>
+        <div class="questions_question-wraper">
+          <div class="question">
+            What is the maximum file upload size?<button
+              class="question_button-up"
+            >
+              <img src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+          <div class="answer">
+            No more than 2GB. All files in your account must fit your allotted
+            storage space.
+          </div>
+        </div>
+        <div class="questions_question-wraper">
+          <div class="question">
+            How do I reset my password?<button class="question_button-up">
+              <img src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+          <div class="answer">
+            Click “Forgot password” from the login page or “Change password”
+            from your profile page. A reset link will be emailed to you.
+          </div>
+        </div>
+        <div class="questions_question-wraper">
+          <div class="question">
+            Can I cancel my subscription?<button class="question_button-up">
+              <img src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+          <div class="answer">
+            Yes! Send us a message and we’ll process your request no questions
+            asked.
+          </div>
+        </div>
+        <div class="questions_question-wraper">
+          <div class="question">
+            Do you provide additional support?<button
+              class="question_button-up"
+            >
+              <img src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+          <div class="answer">
+            Chat and email support is available 24/7. Phone lines are open
+            during normal business hours.
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- <img src="images/illustration-box-desktop.svg" alt="" /> -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
