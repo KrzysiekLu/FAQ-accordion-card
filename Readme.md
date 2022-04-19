@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://tiny-crisp-f49bb7.netlify.app/)
+- Live Site URL: [https://tiny-crisp-f49bb7.netlify.app](https://tiny-crisp-f49bb7.netlify.app/)
 
 ## My process
 
@@ -47,4 +47,5 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@KrzysiekLu](https://www.frontendmentor.io/profile/yourusername)
+
 # FAQ-accordion-card
